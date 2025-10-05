@@ -10,7 +10,7 @@ The dataset is a small, manually created list of 30 samples with the following f
 
 python
 X = [
-    [170, 65, 42],  # height, weight, shoe size
+    [170, 65, 42],  # heights, weights, shoe size
     [160, 55, 38],
     ...
 ]

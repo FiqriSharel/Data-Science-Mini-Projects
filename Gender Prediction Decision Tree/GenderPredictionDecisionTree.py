@@ -49,7 +49,7 @@ y = [
     'female', 'female', 'male', 'male', 'male', 'male', 'female', 'female', 'female', 'male',
     'male', 'male', 'female', 'female', 'male', 'male', 'female', 'female', 'male', 'male'
 ]
-
+# Features: [weight (kg), height (cm), shoe size (EU)]
 clf = tree.DecisionTreeClassifier()
 clf.fit(x, y)
 
